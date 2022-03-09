@@ -2,7 +2,7 @@ const Web3 = require('web3');
 
 require("dotenv").config();
 var web3 = new Web3(new Web3.providers.HttpProvider(
-	'https://ropsten.infura.io/v3/5184c010e6d14c079de8bdcc80cce7e3'
+	'https://mainnet.infura.io/v3/5184c010e6d14c079de8bdcc80cce7e3'
 ));
 var abi = [
 	{
